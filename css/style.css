@@ -15,6 +15,11 @@ body{
     margin: 20px auto;
 }
 
+/* Rows */
+.row{
+    margin-bottom: 30px;
+}
+
 /* Cards */
 .card{
     width: calc(100% / 3 - 3px);
@@ -39,7 +44,7 @@ img{
     left: 0;
 }
 
-.photo img:nth-child(2  ):hover{
+.photo img:nth-child(2):hover{
     display: none;
     cursor: pointer;
 }
