@@ -4,3 +4,80 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* Common */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Main */
+.container{
+    border: 1px solid red;
+    width: 80%;
+    margin: 20px auto;
+}
+
+/* Cards */
+.card{
+    width: calc(100% / 3 - 3px);
+    border: 1px solid blue;
+    display: inline-block;
+}
+
+/* Photos */
+.photo{
+    width: 100%;
+    position: relative;
+    border: 1px solid yellow;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+                                    /* perchè immagini occupano poco meno del loro contenitore */
+
+.photo :nth-child(2){
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+/* Tags */
+.tag{
+    color: white;
+    display: inline-block;
+    padding: 5px 7px;
+}
+
+.tag-container{
+    position: absolute;
+    bottom: 5%;
+    left: 0%;
+}
+
+.sale-box{
+    background-color: #eb0037;
+}
+
+                                    /* perchè manca sostenibilità */
+.sost{
+    background-color: #00875a;
+}
+
+.heart{
+    position: absolute;
+    color: black;
+    background-color: white;
+    top: 5%;
+    right: 0%;
+    padding: 5px 7px;
+}
+
+/* Text */
+.text{
+    border: 1px solid green;
+    padding-top: 2%;
+}
+
+
